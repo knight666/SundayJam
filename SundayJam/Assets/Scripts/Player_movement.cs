@@ -8,6 +8,7 @@ public class Player_movement : MonoBehaviour {
 	private Animator m_Animator;
 	public bool is_mirrored = false;
 	private int invert = 1;
+	Camera camera;
 
 	public Vector2 input_movement = new Vector2();
 
@@ -15,6 +16,7 @@ public class Player_movement : MonoBehaviour {
 	void Start () {
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 		m_Animator = GetComponent<Animator>();
+		camera = GetComponent<Camera>();
 		if (is_mirrored)
 		{
 			invert = -1;
@@ -43,9 +45,15 @@ public class Player_movement : MonoBehaviour {
 			//Debug.Log ("a " + input_movement.ToString());
 		}
 
-		
+		m_Rigidbody2D.velocity = input_movement;
 
-		 m_Rigidbody2D.velocity = input_movement;
+		var pos = Camera.main.WorldToViewportPoint(this.transform.position);
+        pos.x = Mathf.Clamp(pos.x, 0f, 1f);
+ 		pos.y = Mathf.Clamp(pos.y, 0f, 1f);
+ 		transform.position = Camera.main.ViewportToWorldPoint(pos);
+
+
+		 
 
 	}
 	void OnCollisionEnter2D(Collision2D coll)

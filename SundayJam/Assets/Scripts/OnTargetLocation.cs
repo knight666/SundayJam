@@ -5,26 +5,26 @@ using UnityEngine;
 public class OnTargetLocation : MonoBehaviour {
 
 	private Animator m_Animator;
-	private TargetColour o_renderer;
-	private TargetColour m_renderer;
+	private TargetColour other_colour;
+	private TargetColour my_colour;
 	// Use this for initialization
 	void Start () {
 		m_Animator = GetComponent<Animator>();
-		m_renderer = GetComponent<TargetColour>();
+		my_colour = GetComponent<TargetColour>();
 
-		if (m_renderer.colour == "red")
+		if (my_colour.colour == "red")
 		{
 			m_Animator.SetInteger("color", 1);
 		}
-		else if (m_renderer.colour == "blue")
+		else if (my_colour.colour == "blue")
 		{
 			m_Animator.SetInteger("color", 2);
 		}
-		else if (m_renderer.colour == "green")
+		else if (my_colour.colour == "green")
 		{
 			m_Animator.SetInteger("color", 3);
 		}
-		else if (m_renderer.colour == "yellow")
+		else if (my_colour.colour == "yellow")
 		{
 			m_Animator.SetInteger("color", 4);
 		}
@@ -37,8 +37,8 @@ public class OnTargetLocation : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D coll)
 	{
-		o_renderer = coll.GetComponent<TargetColour>();
-		if (coll.tag == "tag_target_location" && o_renderer.colour == m_renderer.colour)
+		other_colour = coll.GetComponent<TargetColour>();
+		if (coll.tag == "tag_target_location" && other_colour.colour == my_colour.colour)
 		{
 			Debug.Log ("ENTER tag_target_location");
 			CandleManager.Instance.IncreasePlaced();
@@ -47,7 +47,8 @@ public class OnTargetLocation : MonoBehaviour {
 	}
 	void OnTriggerExit2D(Collider2D coll)
 	{
-		if (coll.tag == "tag_target_location")
+		other_colour = coll.GetComponent<TargetColour>();
+		if (coll.tag == "tag_target_location" && other_colour.colour == my_colour.colour)
 		{
 			Debug.Log ("EXIT tag_target_location");
 			CandleManager.Instance.DecreasePlaced();

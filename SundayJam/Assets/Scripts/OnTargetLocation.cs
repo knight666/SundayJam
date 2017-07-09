@@ -5,12 +5,29 @@ using UnityEngine;
 public class OnTargetLocation : MonoBehaviour {
 
 	private Animator m_Animator;
-	private TargetColour other_colour;
-	private TargetColour my_colour;
+	private TargetColour o_renderer;
+	private TargetColour m_renderer;
 	// Use this for initialization
 	void Start () {
 		m_Animator = GetComponent<Animator>();
-		my_colour = GetComponent<TargetColour>();
+		m_renderer = GetComponent<TargetColour>();
+
+		if (m_renderer.colour == "red")
+		{
+			m_Animator.SetInteger("color", 1);
+		}
+		else if (m_renderer.colour == "blue")
+		{
+			m_Animator.SetInteger("color", 2);
+		}
+		else if (m_renderer.colour == "green")
+		{
+			m_Animator.SetInteger("color", 3);
+		}
+		else if (m_renderer.colour == "yellow")
+		{
+			m_Animator.SetInteger("color", 4);
+		}
 	}
 	
 	// Update is called once per frame
@@ -20,8 +37,8 @@ public class OnTargetLocation : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D coll)
 	{
-		other_colour = coll.GetComponent<TargetColour>();
-		if (coll.tag == "tag_target_location" && other_colour.colour == my_colour.colour)
+		o_renderer = coll.GetComponent<TargetColour>();
+		if (coll.tag == "tag_target_location" && o_renderer.colour == m_renderer.colour)
 		{
 			Debug.Log ("ENTER tag_target_location");
 			CandleManager.Instance.IncreasePlaced();
@@ -30,8 +47,7 @@ public class OnTargetLocation : MonoBehaviour {
 	}
 	void OnTriggerExit2D(Collider2D coll)
 	{
-		other_colour = coll.GetComponent<TargetColour>();
-		if (coll.tag == "tag_target_location"&& other_colour.colour == my_colour.colour)
+		if (coll.tag == "tag_target_location")
 		{
 			Debug.Log ("EXIT tag_target_location");
 			CandleManager.Instance.DecreasePlaced();

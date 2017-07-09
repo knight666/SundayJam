@@ -4,17 +4,33 @@
 # To import these sprites into your Unity project, download "TexturePackerImporter":
 # http://www.codeandweb.com/texturepacker/unity
 #
-# Sprite sheet: Dynamic.png (256 x 512)
-# $TexturePacker:SmartUpdate:04d174a4f7566e7e0927a793d28f9e51:3ea99022f69ba0826d56efa219d85ef7:ffd52861e27c0042e26375d1928e34fc$
+# Sprite sheet: Dynamic.png (512 x 512)
+# $TexturePacker:SmartUpdate:503c81e1eb26d6e21308d01a94de8258:4df826011eb827c129b607723fab15b4:ffd52861e27c0042e26375d1928e34fc$
 #
 
-Candle/Candle_Lit1;2;88;52;64;0;1
-Candle/Candle_Lit2;2;22;52;64;0;1
-Candle/Candle_Lit3;56;88;52;64;0;1
-Candle/Candle_Unlit;56;30;52;56;0;1
-Cultist/Cultist_Walk1;2;267;107;120;0;1
+Candle/Candle_Blue_Lit1;329;446;52;64;0;1
+Candle/Candle_Blue_Lit2;383;446;52;64;0;1
+Candle/Candle_Blue_Lit3;437;446;52;64;0;1
+Candle/Candle_Blue_Unlit;219;275;52;56;0;1
+Candle/Candle_Green_Lit1;329;380;52;64;0;1
+Candle/Candle_Green_Lit2;383;380;52;64;0;1
+Candle/Candle_Green_Lit3;437;380;52;64;0;1
+Candle/Candle_Green_Unlit;273;275;52;56;0;1
+Candle/Candle_Lit1;111;333;52;64;0;1
+Candle/Candle_Lit2;165;333;52;64;0;1
+Candle/Candle_Lit3;219;333;52;64;0;1
+Candle/Candle_Red_Lit1;273;333;52;64;0;1
+Candle/Candle_Red_Lit2;327;314;52;64;0;1
+Candle/Candle_Red_Lit3;381;314;52;64;0;1
+Candle/Candle_Red_Unlit;327;256;52;56;0;1
+Candle/Candle_Unlit;219;217;52;56;0;1
+Candle/Candle_Yellow_Lit1;435;314;52;64;0;1
+Candle/Candle_Yellow_Lit2;111;267;52;64;0;1
+Candle/Candle_Yellow_Lit3;165;267;52;64;0;1
+Candle/Candle_Yellow_Unlit;273;217;52;56;0;1
+Cultist/Cultist_Walk1;2;144;107;120;0;1
 Cultist/Cultist_Walk2;2;389;107;121;0;1
-Cultist/Cultist_Walk_Left1;111;267;107;120;0;1
-Cultist/Cultist_Walk_Left2;111;389;107;121;0;1
-Shadow/Shadow_Left;2;154;107;111;0;1
-Shadow/Shadow_Right;111;154;107;111;0;1
+Cultist/Cultist_Walk_Left1;2;22;107;120;0;1
+Cultist/Cultist_Walk_Left2;2;266;107;121;0;1
+Shadow/Shadow_Left;111;399;107;111;0;1
+Shadow/Shadow_Right;220;399;107;111;0;1

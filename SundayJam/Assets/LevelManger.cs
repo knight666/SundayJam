@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 	
 public class LevelManger : MonoBehaviour {
 	public int total_candles;
-	public int next_level;
+	private int next_level;
 	private bool is_loading = false;
 	public GameObject summonedShadowPrefab;
 	public GameObject summonedDudePrefab;
@@ -37,6 +38,12 @@ public class LevelManger : MonoBehaviour {
 	IEnumerator LoadNextLevel()
     {
         yield return new WaitForSeconds(2);
+        next_level = Application.loadedLevel +1;
+        
+        if(next_level == Application.levelCount)
+        {
+        	next_level = 0;
+        }
         Application.LoadLevel(next_level);
 		
     }

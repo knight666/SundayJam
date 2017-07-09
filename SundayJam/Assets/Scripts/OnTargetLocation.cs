@@ -5,10 +5,12 @@ using UnityEngine;
 public class OnTargetLocation : MonoBehaviour {
 
 	private Animator m_Animator;
-
+	private TargetColour o_renderer;
+	private TargetColour m_renderer;
 	// Use this for initialization
 	void Start () {
 		m_Animator = GetComponent<Animator>();
+		m_renderer = GetComponent<TargetColour>();
 	}
 	
 	// Update is called once per frame
@@ -18,7 +20,8 @@ public class OnTargetLocation : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D coll)
 	{
-		if (coll.tag == "tag_target_location")
+		o_renderer = coll.GetComponent<TargetColour>();
+		if (coll.tag == "tag_target_location" && o_renderer.colour == m_renderer.colour)
 		{
 			Debug.Log ("ENTER tag_target_location");
 			CandleManager.Instance.IncreasePlaced();

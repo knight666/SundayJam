@@ -22,15 +22,15 @@ public class Player_movement : MonoBehaviour {
 		
 		if (Input.GetKey (KeyCode.W)) {
 			input_movement.y = +5;
-			Debug.Log ("w " + input_movement.ToString());
+			//Debug.Log ("w " + input_movement.ToString());
 		}
 		if (Input.GetKey (KeyCode.S)) {
 			input_movement.y = -5;
-			Debug.Log ("s " + input_movement.ToString());
+			//Debug.Log ("s " + input_movement.ToString());
 		}
 		if (Input.GetKey (KeyCode.D)) {
 			input_movement.x = +5;
-			Debug.Log ("d " + input_movement.ToString());
+			//Debug.Log ("d " + input_movement.ToString());
 		}
 		if (Input.GetKey (KeyCode.A)) {
 			input_movement.x = -5;

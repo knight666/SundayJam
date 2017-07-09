@@ -14,6 +14,22 @@ TextureImporter:
     21300014: Cultist-Cultist_Walk_Left2
     21300016: Shadow-Shadow_Left
     21300018: Shadow-Shadow_Right
+    21300020: Candle-Candle_Blue_Lit1
+    21300022: Candle-Candle_Blue_Lit2
+    21300024: Candle-Candle_Blue_Lit3
+    21300026: Candle-Candle_Blue_Unlit
+    21300028: Candle-Candle_Green_Lit1
+    21300030: Candle-Candle_Green_Lit2
+    21300032: Candle-Candle_Green_Lit3
+    21300034: Candle-Candle_Green_Unlit
+    21300036: Candle-Candle_Red_Lit1
+    21300038: Candle-Candle_Red_Lit2
+    21300040: Candle-Candle_Red_Lit3
+    21300042: Candle-Candle_Red_Unlit
+    21300044: Candle-Candle_Yellow_Lit1
+    21300046: Candle-Candle_Yellow_Lit2
+    21300048: Candle-Candle_Yellow_Lit3
+    21300050: Candle-Candle_Yellow_Unlit
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -72,11 +88,115 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+      name: Candle-Candle_Blue_Lit1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 446
+        width: 52
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Blue_Lit2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 446
+        width: 52
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Blue_Lit3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 446
+        width: 52
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Blue_Unlit
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 275
+        width: 52
+        height: 56
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Green_Lit1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 380
+        width: 52
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Green_Lit2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 380
+        width: 52
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Green_Lit3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 380
+        width: 52
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Green_Unlit
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 275
+        width: 52
+        height: 56
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
       name: Candle-Candle_Lit1
       rect:
         serializedVersion: 2
-        x: 2
-        y: 88
+        x: 111
+        y: 333
         width: 52
         height: 64
       alignment: 1
@@ -88,8 +208,8 @@ TextureImporter:
       name: Candle-Candle_Lit2
       rect:
         serializedVersion: 2
-        x: 2
-        y: 22
+        x: 165
+        y: 333
         width: 52
         height: 64
       alignment: 1
@@ -101,10 +221,62 @@ TextureImporter:
       name: Candle-Candle_Lit3
       rect:
         serializedVersion: 2
-        x: 56
-        y: 88
+        x: 219
+        y: 333
         width: 52
         height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Red_Lit1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 333
+        width: 52
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Red_Lit2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 314
+        width: 52
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Red_Lit3
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 314
+        width: 52
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Red_Unlit
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 256
+        width: 52
+        height: 56
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +286,60 @@ TextureImporter:
       name: Candle-Candle_Unlit
       rect:
         serializedVersion: 2
-        x: 56
-        y: 30
+        x: 219
+        y: 217
+        width: 52
+        height: 56
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Yellow_Lit1
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 314
+        width: 52
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Yellow_Lit2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 267
+        width: 52
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Yellow_Lit3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 267
+        width: 52
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Candle-Candle_Yellow_Unlit
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 217
         width: 52
         height: 56
       alignment: 1
@@ -128,7 +352,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 267
+        y: 144
         width: 107
         height: 120
       alignment: 1
@@ -153,8 +377,8 @@ TextureImporter:
       name: Cultist-Cultist_Walk_Left1
       rect:
         serializedVersion: 2
-        x: 111
-        y: 267
+        x: 2
+        y: 22
         width: 107
         height: 120
       alignment: 1
@@ -166,8 +390,8 @@ TextureImporter:
       name: Cultist-Cultist_Walk_Left2
       rect:
         serializedVersion: 2
-        x: 111
-        y: 389
+        x: 2
+        y: 266
         width: 107
         height: 121
       alignment: 1
@@ -179,8 +403,8 @@ TextureImporter:
       name: Shadow-Shadow_Left
       rect:
         serializedVersion: 2
-        x: 2
-        y: 154
+        x: 111
+        y: 399
         width: 107
         height: 111
       alignment: 1
@@ -192,8 +416,8 @@ TextureImporter:
       name: Shadow-Shadow_Right
       rect:
         serializedVersion: 2
-        x: 111
-        y: 154
+        x: 220
+        y: 399
         width: 107
         height: 111
       alignment: 1

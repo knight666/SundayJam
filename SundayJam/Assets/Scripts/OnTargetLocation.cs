@@ -11,6 +11,23 @@ public class OnTargetLocation : MonoBehaviour {
 	void Start () {
 		m_Animator = GetComponent<Animator>();
 		m_renderer = GetComponent<TargetColour>();
+
+		if (m_renderer.colour == "red")
+		{
+			m_Animator.SetInteger("color", 1);
+		}
+		else if (m_renderer.colour == "blue")
+		{
+			m_Animator.SetInteger("color", 2);
+		}
+		else if (m_renderer.colour == "green")
+		{
+			m_Animator.SetInteger("color", 3);
+		}
+		else if (m_renderer.colour == "yellow")
+		{
+			m_Animator.SetInteger("color", 4);
+		}
 	}
 	
 	// Update is called once per frame

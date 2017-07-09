@@ -5,12 +5,14 @@ using UnityEngine;
 public class Player_movement : MonoBehaviour {
 
 	private Rigidbody2D m_Rigidbody2D;
+	private Animator m_Animator;
+
 	public Vector2 input_movement = new Vector2();
 
 	// Use this for initialization
 	void Start () {
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
-		
+		m_Animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame

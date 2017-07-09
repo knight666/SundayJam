@@ -20,6 +20,7 @@ public class Player_movement : MonoBehaviour {
 		if (is_mirrored)
 		{
 			invert = -1;
+			m_Animator.SetBool("shadow", true);
 		}
 	}
 	
@@ -38,14 +39,18 @@ public class Player_movement : MonoBehaviour {
 		}
 		if (Input.GetKey (KeyCode.D)) {
 			input_movement.x = +5*invert;
+			m_Animator.SetBool("walk_right", true);
 			//Debug.Log ("d " + input_movement.ToString());
 		}
 		if (Input.GetKey (KeyCode.A)) {
 			input_movement.x = -5*invert;
+			m_Animator.SetBool("walk_right", false);
 			//Debug.Log ("a " + input_movement.ToString());
 		}
 
 		m_Rigidbody2D.velocity = input_movement;
+
+		
 
 		var pos = Camera.main.WorldToViewportPoint(this.transform.position);
         pos.x = Mathf.Clamp(pos.x, 0f, 1f);

@@ -31,6 +31,7 @@ TextureImporter:
     21300048: Candle-Candle_Yellow_Lit3
     21300050: Candle-Candle_Yellow_Unlit
     21300052: Priest-Priest
+    21300054: Target-Target
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -92,9 +93,9 @@ TextureImporter:
       name: Candle-Candle_Blue_Lit1
       rect:
         serializedVersion: 2
-        x: 111
-        y: 95
-        width: 52
+        x: 262
+        y: 316
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -105,9 +106,9 @@ TextureImporter:
       name: Candle-Candle_Blue_Lit2
       rect:
         serializedVersion: 2
-        x: 111
-        y: 29
-        width: 52
+        x: 262
+        y: 250
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -118,9 +119,9 @@ TextureImporter:
       name: Candle-Candle_Blue_Lit3
       rect:
         serializedVersion: 2
-        x: 165
-        y: 95
-        width: 52
+        x: 262
+        y: 184
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -131,10 +132,10 @@ TextureImporter:
       name: Candle-Candle_Blue_Unlit
       rect:
         serializedVersion: 2
-        x: 435
-        y: 454
-        width: 52
-        height: 56
+        x: 262
+        y: 118
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,9 +145,9 @@ TextureImporter:
       name: Candle-Candle_Green_Lit1
       rect:
         serializedVersion: 2
-        x: 165
-        y: 29
-        width: 52
+        x: 2
+        y: 56
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -157,9 +158,9 @@ TextureImporter:
       name: Candle-Candle_Green_Lit2
       rect:
         serializedVersion: 2
-        x: 219
-        y: 95
-        width: 52
+        x: 68
+        y: 56
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -170,9 +171,9 @@ TextureImporter:
       name: Candle-Candle_Green_Lit3
       rect:
         serializedVersion: 2
-        x: 219
-        y: 29
-        width: 52
+        x: 134
+        y: 56
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -183,10 +184,10 @@ TextureImporter:
       name: Candle-Candle_Green_Unlit
       rect:
         serializedVersion: 2
-        x: 435
-        y: 396
-        width: 52
-        height: 56
+        x: 200
+        y: 52
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,9 +197,9 @@ TextureImporter:
       name: Candle-Candle_Lit1
       rect:
         serializedVersion: 2
-        x: 220
-        y: 333
-        width: 52
+        x: 266
+        y: 52
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -209,9 +210,9 @@ TextureImporter:
       name: Candle-Candle_Lit2
       rect:
         serializedVersion: 2
-        x: 236
-        y: 446
-        width: 52
+        x: 328
+        y: 316
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -222,9 +223,9 @@ TextureImporter:
       name: Candle-Candle_Lit3
       rect:
         serializedVersion: 2
-        x: 220
-        y: 267
-        width: 52
+        x: 392
+        y: 446
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -235,9 +236,9 @@ TextureImporter:
       name: Candle-Candle_Red_Lit1
       rect:
         serializedVersion: 2
-        x: 220
-        y: 201
-        width: 52
+        x: 328
+        y: 250
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -248,9 +249,9 @@ TextureImporter:
       name: Candle-Candle_Red_Lit2
       rect:
         serializedVersion: 2
-        x: 273
-        y: 135
-        width: 52
+        x: 328
+        y: 184
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -261,9 +262,9 @@ TextureImporter:
       name: Candle-Candle_Red_Lit3
       rect:
         serializedVersion: 2
-        x: 273
-        y: 69
-        width: 52
+        x: 332
+        y: 118
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -274,10 +275,10 @@ TextureImporter:
       name: Candle-Candle_Red_Unlit
       rect:
         serializedVersion: 2
-        x: 327
-        y: 388
-        width: 52
-        height: 56
+        x: 332
+        y: 52
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,10 +288,10 @@ TextureImporter:
       name: Candle-Candle_Unlit
       rect:
         serializedVersion: 2
-        x: 381
-        y: 388
-        width: 52
-        height: 56
+        x: 394
+        y: 380
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,9 +301,9 @@ TextureImporter:
       name: Candle-Candle_Yellow_Lit1
       rect:
         serializedVersion: 2
-        x: 273
-        y: 3
-        width: 52
+        x: 394
+        y: 314
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -313,9 +314,9 @@ TextureImporter:
       name: Candle-Candle_Yellow_Lit2
       rect:
         serializedVersion: 2
-        x: 327
-        y: 446
-        width: 52
+        x: 394
+        y: 248
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -326,9 +327,9 @@ TextureImporter:
       name: Candle-Candle_Yellow_Lit3
       rect:
         serializedVersion: 2
-        x: 381
-        y: 446
-        width: 52
+        x: 398
+        y: 182
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -339,10 +340,10 @@ TextureImporter:
       name: Candle-Candle_Yellow_Unlit
       rect:
         serializedVersion: 2
-        x: 435
-        y: 338
-        width: 52
-        height: 56
+        x: 398
+        y: 116
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,9 +354,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 28
-        width: 107
-        height: 120
+        y: 382
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -366,9 +367,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 273
-        width: 107
-        height: 121
+        y: 252
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +379,10 @@ TextureImporter:
       name: Cultist-Cultist_Walk_Left1
       rect:
         serializedVersion: 2
-        x: 111
-        y: 274
-        width: 107
-        height: 120
+        x: 2
+        y: 122
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +392,10 @@ TextureImporter:
       name: Cultist-Cultist_Walk_Left2
       rect:
         serializedVersion: 2
-        x: 2
-        y: 150
-        width: 107
-        height: 121
+        x: 132
+        y: 382
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +405,10 @@ TextureImporter:
       name: Priest-Priest
       rect:
         serializedVersion: 2
-        x: 2
-        y: 396
-        width: 123
-        height: 114
+        x: 132
+        y: 252
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,10 +418,10 @@ TextureImporter:
       name: Shadow-Shadow_Left
       rect:
         serializedVersion: 2
-        x: 127
-        y: 399
-        width: 107
-        height: 111
+        x: 132
+        y: 122
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,10 +431,23 @@ TextureImporter:
       name: Shadow-Shadow_Right
       rect:
         serializedVersion: 2
-        x: 111
-        y: 161
-        width: 107
-        height: 111
+        x: 262
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Target-Target
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 50
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

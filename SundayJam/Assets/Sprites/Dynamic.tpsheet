@@ -5,33 +5,34 @@
 # http://www.codeandweb.com/texturepacker/unity
 #
 # Sprite sheet: Dynamic.png (512 x 512)
-# $TexturePacker:SmartUpdate:e11bc78696b50d9775dc8d1280ec54ac:fe7451f967a2445202c68a03bff78b50:ffd52861e27c0042e26375d1928e34fc$
+# $TexturePacker:SmartUpdate:f08d76191ddf46490244ad4f73dc293c:f9b5726e86b819003bd2db092042a07d:ffd52861e27c0042e26375d1928e34fc$
 #
 
-Candle/Candle_Blue_Lit1;111;95;52;64;0.5;0.5
-Candle/Candle_Blue_Lit2;111;29;52;64;0.5;0.5
-Candle/Candle_Blue_Lit3;165;95;52;64;0.5;0.5
-Candle/Candle_Blue_Unlit;435;454;52;56;0.5;0.5
-Candle/Candle_Green_Lit1;165;29;52;64;0.5;0.5
-Candle/Candle_Green_Lit2;219;95;52;64;0.5;0.5
-Candle/Candle_Green_Lit3;219;29;52;64;0.5;0.5
-Candle/Candle_Green_Unlit;435;396;52;56;0.5;0.5
-Candle/Candle_Lit1;220;333;52;64;0.5;0.5
-Candle/Candle_Lit2;236;446;52;64;0.5;0.5
-Candle/Candle_Lit3;220;267;52;64;0.5;0.5
-Candle/Candle_Red_Lit1;220;201;52;64;0.5;0.5
-Candle/Candle_Red_Lit2;273;135;52;64;0.5;0.5
-Candle/Candle_Red_Lit3;273;69;52;64;0.5;0.5
-Candle/Candle_Red_Unlit;327;388;52;56;0.5;0.5
-Candle/Candle_Unlit;381;388;52;56;0.5;0.5
-Candle/Candle_Yellow_Lit1;273;3;52;64;0.5;0.5
-Candle/Candle_Yellow_Lit2;327;446;52;64;0.5;0.5
-Candle/Candle_Yellow_Lit3;381;446;52;64;0.5;0.5
-Candle/Candle_Yellow_Unlit;435;338;52;56;0.5;0.5
-Cultist/Cultist_Walk1;2;28;107;120;0.5;0.5
-Cultist/Cultist_Walk2;2;273;107;121;0.5;0.5
-Cultist/Cultist_Walk_Left1;111;274;107;120;0.5;0.5
-Cultist/Cultist_Walk_Left2;2;150;107;121;0.5;0.5
-Priest/Priest;2;396;123;114;0.5;0.5
-Shadow/Shadow_Left;127;399;107;111;0.5;0.5
-Shadow/Shadow_Right;111;161;107;111;0.5;0.5
+Candle/Candle_Blue_Lit1;262;316;64;64;0.5;0.5
+Candle/Candle_Blue_Lit2;262;250;64;64;0.5;0.5
+Candle/Candle_Blue_Lit3;262;184;64;64;0.5;0.5
+Candle/Candle_Blue_Unlit;262;118;64;64;0.5;0.5
+Candle/Candle_Green_Lit1;2;56;64;64;0.5;0.5
+Candle/Candle_Green_Lit2;68;56;64;64;0.5;0.5
+Candle/Candle_Green_Lit3;134;56;64;64;0.5;0.5
+Candle/Candle_Green_Unlit;200;52;64;64;0.5;0.5
+Candle/Candle_Lit1;266;52;64;64;0.5;0.5
+Candle/Candle_Lit2;328;316;64;64;0.5;0.5
+Candle/Candle_Lit3;392;446;64;64;0.5;0.5
+Candle/Candle_Red_Lit1;328;250;64;64;0.5;0.5
+Candle/Candle_Red_Lit2;328;184;64;64;0.5;0.5
+Candle/Candle_Red_Lit3;332;118;64;64;0.5;0.5
+Candle/Candle_Red_Unlit;332;52;64;64;0.5;0.5
+Candle/Candle_Unlit;394;380;64;64;0.5;0.5
+Candle/Candle_Yellow_Lit1;394;314;64;64;0.5;0.5
+Candle/Candle_Yellow_Lit2;394;248;64;64;0.5;0.5
+Candle/Candle_Yellow_Lit3;398;182;64;64;0.5;0.5
+Candle/Candle_Yellow_Unlit;398;116;64;64;0.5;0.5
+Cultist/Cultist_Walk1;2;382;128;128;0.5;0.5
+Cultist/Cultist_Walk2;2;252;128;128;0.5;0.5
+Cultist/Cultist_Walk_Left1;2;122;128;128;0.5;0.5
+Cultist/Cultist_Walk_Left2;132;382;128;128;0.5;0.5
+Priest/Priest;132;252;128;128;0.5;0.5
+Shadow/Shadow_Left;132;122;128;128;0.5;0.5
+Shadow/Shadow_Right;262;382;128;128;0.5;0.5
+Target/Target;398;50;64;64;0.5;0.5

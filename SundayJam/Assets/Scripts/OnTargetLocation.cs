@@ -19,6 +19,7 @@ public class OnTargetLocation : MonoBehaviour {
 		if (coll.tag == "tag_target_location")
 		{
 			Debug.Log ("ENTER tag_target_location");
+			CandleManager.Instance.IncreasePlaced();
 		}
 	}
 	void OnTriggerExit2D(Collider2D coll)
@@ -26,6 +27,7 @@ public class OnTargetLocation : MonoBehaviour {
 		if (coll.tag == "tag_target_location")
 		{
 			Debug.Log ("EXIT tag_target_location");
+			CandleManager.Instance.DecreasePlaced();
 		}
 	}
 }

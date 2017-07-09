@@ -1,8 +1,8 @@
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
+/SundayJam/[Ll]ibrary/
+/SundayJam/[Tt]emp/
+/SundayJam/[Oo]bj/
+/SundayJam/[Bb]uild/
+/SundayJam/[Bb]uilds/
 /Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
@@ -32,3 +32,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+

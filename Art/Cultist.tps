@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>unity-texture2d</string>
         <key>textureFileName</key>
-        <filename>../SundayJam/Assets/Sprites/Cultist.png</filename>
+        <filename>../SundayJam/Assets/Sprites/Dynamic.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -145,7 +145,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../SundayJam/Assets/Sprites/Cultist.tpsheet</filename>
+                <filename>../SundayJam/Assets/Sprites/Dynamic.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -180,7 +180,7 @@
             <key>trimThreshold</key>
             <uint>1</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">None</enum>
+            <enum type="SpriteSettings::TrimMode">Crop</enum>
             <key>heuristicMask</key>
             <false/>
             <key>pivotPoint</key>

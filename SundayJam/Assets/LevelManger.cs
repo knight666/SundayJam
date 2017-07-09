@@ -7,6 +7,7 @@ public class LevelManger : MonoBehaviour {
 	public int total_candles;
 	public int next_level;
 	private bool is_loading = false;
+	public GameObject summonedShadowPrefab;
 	public GameObject summonedDudePrefab;
 	private bool is_summoned = false;
 
@@ -22,14 +23,21 @@ public class LevelManger : MonoBehaviour {
 		{
 			Quaternion rotation = Quaternion.Euler(0, 90.0f, 0.0f);
 
-			GameObject.Instantiate(summonedDudePrefab,new Vector3(0, 0, 0) ,Quaternion.identity);
+			GameObject.Instantiate(summonedShadowPrefab,new Vector3(0, 0, 0) ,Quaternion.identity);
 			is_summoned = true;
 		}
 		if( CandleManager.Instance.candles_placed == total_candles && !is_loading )
 		{
-			Application.LoadLevel(next_level);
-			is_loading = true;		
-			
+			GameObject.Instantiate(summonedDudePrefab,new Vector3(0, 0, 0) ,Quaternion.identity);
+			StartCoroutine(LoadNextLevel());
+			is_loading = true;				
 		}
 	}
+
+	IEnumerator LoadNextLevel()
+    {
+        yield return new WaitForSeconds(2);
+        Application.LoadLevel(next_level);
+		
+    }
 }

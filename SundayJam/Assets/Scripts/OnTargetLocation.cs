@@ -28,6 +28,10 @@ public class OnTargetLocation : MonoBehaviour {
 		{
 			m_Animator.SetInteger("color", 4);
 		}
+		else
+		{
+			m_Animator.SetInteger("color", 5);
+		}
 	}
 	
 	// Update is called once per frame

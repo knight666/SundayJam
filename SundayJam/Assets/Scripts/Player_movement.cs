@@ -6,6 +6,8 @@ public class Player_movement : MonoBehaviour {
 
 	private Rigidbody2D m_Rigidbody2D;
 	private Animator m_Animator;
+	public bool is_mirrored = false;
+	private int invert = 1;
 
 	public Vector2 input_movement = new Vector2();
 
@@ -13,6 +15,10 @@ public class Player_movement : MonoBehaviour {
 	void Start () {
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 		m_Animator = GetComponent<Animator>();
+		if (is_mirrored)
+		{
+			invert = -1;
+		}
 	}
 	
 	// Update is called once per frame
@@ -21,19 +27,19 @@ public class Player_movement : MonoBehaviour {
 		input_movement = new Vector2();
 		
 		if (Input.GetKey (KeyCode.W)) {
-			input_movement.y = +5;
+			input_movement.y = +5*invert;
 			//Debug.Log ("w " + input_movement.ToString());
 		}
 		if (Input.GetKey (KeyCode.S)) {
-			input_movement.y = -5;
+			input_movement.y = -5*invert;
 			//Debug.Log ("s " + input_movement.ToString());
 		}
 		if (Input.GetKey (KeyCode.D)) {
-			input_movement.x = +5;
+			input_movement.x = +5*invert;
 			//Debug.Log ("d " + input_movement.ToString());
 		}
 		if (Input.GetKey (KeyCode.A)) {
-			input_movement.x = -5;
+			input_movement.x = -5*invert;
 			//Debug.Log ("a " + input_movement.ToString());
 		}
 

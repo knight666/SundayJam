@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>3.6.0</string>
         <key>fileName</key>
-        <string>D:/Projects/SundayJam/Art/Cultist.tps</string>
+        <string>D:/Projects/SundayJam/Art/Candle/Candle.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>unity-texture2d</string>
         <key>textureFileName</key>
-        <filename>../SundayJam/Assets/Sprites/Cultist.png</filename>
+        <filename>../../SundayJam/Assets/Sprites/Candle.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -70,7 +70,7 @@
             </struct>
         </struct>
         <key>shapePadding</key>
-        <uint>2</uint>
+        <uint>0</uint>
         <key>jpgQuality</key>
         <uint>80</uint>
         <key>pngOptimizationLevel</key>
@@ -82,7 +82,7 @@
         <key>textureFormat</key>
         <enum type="SettingsBase::TextureFormat">png</enum>
         <key>borderPadding</key>
-        <uint>2</uint>
+        <uint>0</uint>
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
@@ -145,7 +145,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../SundayJam/Assets/Sprites/Cultist.tpsheet</filename>
+                <filename>../../SundayJam/Assets/Sprites/Candle.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -197,8 +197,8 @@
         <key>ignoredWarnings</key>
         <array/>
         <key>commonDivisorX</key>
-        <uint>1</uint>
+        <uint>64</uint>
         <key>commonDivisorY</key>
-        <uint>1</uint>
+        <uint>64</uint>
     </struct>
 </data>

@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>unity-texture2d</string>
         <key>textureFileName</key>
-        <filename>../SundayJam/Assets/Sprites/Cultist.png</filename>
+        <filename></filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -180,11 +180,11 @@
             <key>trimThreshold</key>
             <uint>1</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">None</enum>
+            <enum type="SpriteSettings::TrimMode">CropKeepPos</enum>
             <key>heuristicMask</key>
             <false/>
             <key>pivotPoint</key>
-            <enum type="SpriteSettings::PivotPoint">TopLeft</enum>
+            <enum type="SpriteSettings::PivotPoint">Center</enum>
         </struct>
         <key>fileList</key>
         <array>

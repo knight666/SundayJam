@@ -34,9 +34,14 @@ public class Player_movement : MonoBehaviour {
 			input_movement.x = -5;
 			//Debug.Log ("a " + input_movement.ToString());
 		}
+
 		
 
 		 m_Rigidbody2D.velocity = input_movement;
-		
+
+	}
+	void OnCollisionEnter2D(Collision2D coll)
+	{
+		Debug.Log ("cpllision ");
 	}
 }

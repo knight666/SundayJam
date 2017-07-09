@@ -4,9 +4,11 @@
 # To import these sprites into your Unity project, download "TexturePackerImporter":
 # http://www.codeandweb.com/texturepacker/unity
 #
-# Sprite sheet: Cultist.png (256 x 512)
-# $TexturePacker:SmartUpdate:4c0d98c25d3af8ea06c2f4a554a49c9d:c6a1a3beacab2c311fe1af015d1666bd:d40ea92cc4020b73960669330e9f30c0$
+# Sprite sheet: Cultist.png (512 x 512)
+# $TexturePacker:SmartUpdate:b09205325e44b71ebc1368e95978a524:44ad7c6cb745184b39017852740cc45f:d40ea92cc4020b73960669330e9f30c0$
 #
 
 Cultist_Walk1;2;382;128;128;0;1
 Cultist_Walk2;2;252;128;128;0;1
+Cultist_Walk_Left1;2;122;128;128;0;1
+Cultist_Walk_Left2;132;382;128;128;0;1

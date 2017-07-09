@@ -1,12 +1,13 @@
 fileFormatVersion: 2
 guid: e3522f87cefe4f84c8fe44ecf2a4d36b
-timeCreated: 1499595531
+timeCreated: 1499598639
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Cultist_0
     21300002: Cultist_1
     21300004: Cultist_2
+    21300006: Cultist_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -76,10 +77,10 @@ TextureImporter:
       name: Cultist_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 12
         y: 384
-        width: 128
-        height: 128
+        width: 108
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -89,10 +90,10 @@ TextureImporter:
       name: Cultist_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 128
-        height: 128
+        x: 143
+        y: 384
+        width: 109
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -102,10 +103,23 @@ TextureImporter:
       name: Cultist_2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 127
-        width: 128
-        height: 128
+        x: 12
+        y: 252
+        width: 108
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cultist_3
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 123
+        width: 108
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
